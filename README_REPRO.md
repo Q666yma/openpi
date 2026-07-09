@@ -37,20 +37,11 @@ Rendering backend for LIBERO: EGL
 openpi_server:latest
 libero:latest
 ```
-
-打包命令：
-
-```
-docker save -o /home/featurize/work/openpi-repro-images-docker.tar \
-  openpi_server:latest \
-  libero:latest
-```
-
-验证镜像文件：
+同时已上传到 Docker Hub 作为备份：
 
 ```
-ls -lh /home/featurize/work/openpi-repro-images-docker.tar
-tar -tf /home/featurize/work/openpi-repro-images-docker.tar | grep -E "manifest.json|repositories"
+morgan11/openpi-server:latest
+morgan11/openpi-libero:latest
 ```
 
 ## 5. 启动 Policy Server
