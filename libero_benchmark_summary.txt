@@ -1,0 +1,17 @@
+OpenPI LIBERO Benchmark Reproduction Summary
+
+Benchmark:
+- Checkpoint: pi05_libero
+- Suites: libero_spatial, libero_object, libero_goal, libero_10
+- Tasks per suite: 10
+- Trials per task: 50
+- Total episodes: 2000
+- Rendering backend: EGL
+
+Results:
+- libero_spatial: success rate = 0.976, episodes = 500
+- libero_object:  success rate = 0.988, episodes = 500
+- libero_goal:    success rate = 0.972, episodes = 500
+- libero_10:      success rate = 0.920, episodes = 500
+
+Average success rate: 0.964
